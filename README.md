@@ -2,7 +2,7 @@
 
 A lightweight, standalone Windows utility that displays real-time solar and geophysical data images from [hamqsl.com](https://www.hamqsl.com/solar.html) directly on your desktop. The application is controlled via a system tray icon and features multiple, independent, movable banner windows.
 
-![Screenshot of SolarData in action](https://i.imgur.com/4qG4hJz.png)
+https://imgur.com/a/LqgipAi
 
 ## Features
 
