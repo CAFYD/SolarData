@@ -2,7 +2,7 @@
 
 A lightweight, standalone Windows utility that displays real-time solar and geophysical data images from [hamqsl.com](https://www.hamqsl.com/solar.html) directly on your desktop. The application is controlled via a system tray icon and features multiple, independent, movable banner windows.
 
-![Screenshot of SolarData in action]([https://i.imgur.com/4qG4hJz.png](https://imgur.com/a/LqgipAi))
+![Screenshot of SolarData in action](https://i.imgur.com/4qG4hJz.png)
 
 ## Features
 
@@ -24,21 +24,11 @@ A lightweight, standalone Windows utility that displays real-time solar and geop
 
 ## How to Compile
 
-To compile this project from source, you will need:
+The source code can be compiled into a standalone executable using Microsoft Visual Studio.
 
-*   **Microsoft Visual Studio** (any recent version, e.g., 2019 or 2022).
-*   The **"Desktop development with C++"** workload installed via the Visual Studio Installer.
-
-Follow these steps:
-1.  Create a new, empty **"Windows Desktop Application"** project in Visual Studio.
-2.  Replace the content of the main `.cpp` file with the code from `SolarData.cpp`.
-3.  **Add an Icon:**
-    *   In the **Solution Explorer**, right-click on **Resource Files -> Add -> Resource...**.
-    *   Select **Icon** and click **Import...**.
-    *   Choose a `.ico` file. Visual Studio will create a `resource.h` file and assign an ID to your icon (e.g., `IDI_SOLARDATA` or `IDI_ICON1`).
-    *   Ensure the ID in the code matches the ID in `resource.h`.
-4.  **Build the solution** (F7 or `Build -> Build Solution`). The `SolarData.exe` file will be created in your project's `Debug` or `Release` folder.
-5.  **Customize (Optional):** You can easily change the banner list, menu titles, and the `refreshMinutes` constant by editing the global variables at the top of the `SolarData.cpp` file before compiling.
+1.  Open the project in Visual Studio (any recent version, e.g., 2019 or 2022).
+2.  Ensure you have the **"Desktop development with C++"** workload installed.
+3.  Build the solution (`Build -> Build Solution`).
 
 ## How to Use
 
