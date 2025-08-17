@@ -2,11 +2,12 @@
 
 A lightweight, standalone Windows utility that displays real-time solar and geophysical data images from [hamqsl.com](https://www.hamqsl.com/solar.html) directly on your desktop. The application is controlled via a system tray icon and features multiple, independent, movable banner windows.
 
-![image](https://i.imgur.com/83D4Y4N.png) 
+![Screenshot of SolarData in action](https://i.imgur.com/4qG4hJz.png)
 
 ## Features
 
 *   **Real-time Data:** Fetches and displays multiple, up-to-date solar data images.
+*   **Automatic Refresh:** Each banner automatically refreshes with the latest data every 10 minutes.
 *   **System Tray Control:** The entire application is managed from a single icon in the system tray (notification area), keeping your taskbar clean.
 *   **On-Demand Windows:** Show or hide specific data banners through a simple right-click menu on the tray icon.
 *   **Auto-Start:** Key banners are displayed automatically when the application starts.
@@ -36,7 +37,8 @@ Follow these steps:
     *   Select **Icon** and click **Import...**.
     *   Choose a `.ico` file. Visual Studio will create a `resource.h` file and assign an ID to your icon (e.g., `IDI_SOLARDATA` or `IDI_ICON1`).
     *   Ensure the ID in the code matches the ID in `resource.h`.
-4.  Build the solution (F7 or `Build -> Build Solution`). The `SolarData.exe` file will be created in your project's `Debug` or `Release` folder.
+4.  **Build the solution** (F7 or `Build -> Build Solution`). The `SolarData.exe` file will be created in your project's `Debug` or `Release` folder.
+5.  **Customize (Optional):** You can easily change the banner list, menu titles, and the `refreshMinutes` constant by editing the global variables at the top of the `SolarData.cpp` file before compiling.
 
 ## How to Use
 
