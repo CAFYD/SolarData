@@ -2,8 +2,6 @@
 
 A lightweight, standalone Windows utility that displays real-time solar data banners from [hamqsl.com](https://www.hamqsl.com/) and NOAA directly on your desktop. The application is controlled via a system tray icon, featuring multiple, independent, movable banner windows.
 
-![Screenshot of SolarData in action](https://i.imgur.com/4qG4hJz.png)
-
 ## Features
 
 *   **Stable & Reliable:** Displays the 4 key solar data banners that are verified to work 100% of the time.
